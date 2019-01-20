@@ -1292,7 +1292,6 @@ out:
 
 static void destroy_devices(unsigned int nr)
 {
-<<<<<<< HEAD
 	struct zram *zram;
 	unsigned int i;
 
@@ -1311,10 +1310,6 @@ static void destroy_devices(unsigned int nr)
 		del_gendisk(zram->disk);
 		put_disk(zram->disk);
 	}
-=======
-	del_gendisk(zram->disk);
-	put_disk(zram->disk);
->>>>>>> 88be820ddddc745d99c7fc86210b44836842ee83
 
 	kfree(zram_devices);
 	unregister_blkdev(zram_major, "zram");
