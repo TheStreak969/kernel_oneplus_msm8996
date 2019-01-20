@@ -64,6 +64,10 @@ static const struct usb_device_id appledisplay_table[] = {
 	{ APPLEDISPLAY_DEVICE(0x921c) },
 	{ APPLEDISPLAY_DEVICE(0x921d) },
 	{ APPLEDISPLAY_DEVICE(0x9222) },
+<<<<<<< HEAD
+=======
+	{ APPLEDISPLAY_DEVICE(0x9226) },
+>>>>>>> 88be820ddddc745d99c7fc86210b44836842ee83
 	{ APPLEDISPLAY_DEVICE(0x9236) },
 
 	/* Terminating entry */
